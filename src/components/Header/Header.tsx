@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <Navbar
       fixed="top"
-      className="bg-[#222831]"
+      className="bg-slate-900/70 bg-blur"
     >
-      <Navbar.Brand className="px-8 py-2">
+      <Navbar.Brand className="pl-8 py-2">
         <img
           className="w-48 md:block max-[768px]:hidden"
           src={logo}
@@ -22,7 +22,7 @@ const Header = () => {
           alt=""
         />
       </Navbar.Brand>
-      <div className="ml-auto px-8">
+      <div className="ml-auto pr-8 py-2 max-[768px]:hidden">
         <CBButton title="Join us" />
       </div>
       <Navbar.Toggle>

@@ -16,3 +16,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.bg-blur{
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}

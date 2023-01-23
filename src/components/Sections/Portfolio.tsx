@@ -24,15 +24,21 @@ const Portfolio = () => {
 
         <Row className="py-8">
           <Col>
-            <Carousel>
+            <Carousel indicators={false}>
               {PortfolioData.map((item, index) => (
-                <Carousel.Item>
-                  <Carousel.Caption>
-                    <h4 style={{color: item.textcolor}}>{item.clientName}</h4>
-                    <p style={{color: item.textcolor}}>{item.projectDesc}</p>
-                  </Carousel.Caption>
-                  <div className="">
-                    <img className="hover:scale-125 rounded ease-in-out duration-300" src={item.image} alt={item.alt} />
+                <Carousel.Item key={item.id}>
+                  <div className="flex justify-between items-center">
+                    <div className="w-1/2 text-left max-w-[400px] mr-12">
+                      <h4>{item.clientName}</h4>
+                      <p>{item.projectDesc}</p>
+                    </div>
+                    <div key={item.id} className="w-1/2">
+                      <img
+                        className="h-500 object-cover w-full object-cover duration-300 ease-in-out hover:scale-110 hover:shadow-lg"
+                        src={item.image}
+                        alt={item.alt}
+                      />
+                    </div>
                   </div>
                 </Carousel.Item>
               ))}
