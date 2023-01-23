@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import {Banner, Services, Technologies} from "./components/Sections";
+import {Banner, Portfolio, Services, Technologies} from "./components/Sections";
 import {Header} from "./components/Header";
 
 function App() {
@@ -9,7 +9,8 @@ function App() {
       <Header />
       <Banner />
       <Services />
-      <Technologies/>
+      <Technologies />
+      <Portfolio/>
     </div>
   );
 }

@@ -2,6 +2,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import {ServiceData} from "../../data/services";
+import { SectionHeading } from "../Utils";
 
 const Services = () => {
   return (
@@ -10,9 +11,9 @@ const Services = () => {
       className="bg-[#FAFAFA] py-24"
     >
       <Container>
-        <Row>
+        <Row className="text-left">
           <Col>
-            <h2 className="text-left font-bold my-8 text-4xl">Our Services</h2>
+            <SectionHeading title="Our Services"/>
           </Col>
         </Row>
         <Row className="py-12">
@@ -26,9 +27,8 @@ const Services = () => {
               <div className="service-wrapper flex flex-col text-left w-full">
                 <div className="flex w-full mb-2 items-center">
                   {item.serviceIcon ? (
-                    <div className="mr-4 rounded bg-red-600 h-20 w-20 justify-center flex items-center">
+                    <div className="mr-4 text-white hover:scale-110 ease-in-out duration-300 rounded bg-red-600 h-20 w-20 justify-center flex items-center">
                       <FontAwesomeIcon
-                        color="white"
                         icon={item.serviceIcon}
                         className="text-4xl p-4"
                       />
