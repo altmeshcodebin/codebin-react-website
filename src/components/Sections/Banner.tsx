@@ -7,8 +7,7 @@ const Banner = () => {
   return (
     <Container
       fluid
-      className="flex h-screen flex-col justify-center p-0 md:justify-center bg-cover" style={{backgroundImage: `url(${bannerbg})`}}
-    >
+      className="bg-fixed flex h-screen flex-col justify-center p-0 md:justify-center bg-cover" style={{backgroundImage: `url(${bannerbg})`}}>
       <Row className="w-full max-[768px]:px-8 md:flex md:items-center md:justify-center max-[768px]:gap-4 min-[768px]:gap-8">
         <Col md={3}>
           <h3 className="font-thin text-white max-[768px]:text-left  max-[768px]:text-6xl md:text-7xl">
