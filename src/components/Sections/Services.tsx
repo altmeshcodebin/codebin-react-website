@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <Container
       fluid
-      className="bg-[#FAFAFA] py-24"
+      className="bg-[#FAFAFA] py-4"
     >
       <Container>
         <Row className="text-left">
@@ -16,15 +16,14 @@ const Services = () => {
             <SectionHeading title="Our Services"/>
           </Col>
         </Row>
-        <Row className="py-12">
+        <Row className="">
           {ServiceData.map((item, index) => (
             <Col
-              className="flex mb-8"
-              md={4}
-              lg={4}
+              md="4"
+              className="py-2"
               key={item.id}
             >
-              <div className="service-wrapper flex flex-col text-left w-full">
+              <div className="service-wrapper flex flex-col justify-center rounded-lg bg-gray-100 p-4 h-full my-2 flex flex-col text-left w-full">
                 <div className="flex w-full mb-2 items-center">
                   {item.serviceIcon ? (
                     <div className="mr-4 text-white hover:scale-110 ease-in-out duration-300 rounded bg-red-600 h-20 w-20 justify-center flex items-center">
@@ -34,7 +33,7 @@ const Services = () => {
                       />
                     </div>
                   ) : null}
-                  <h3 className="text-2xl font-semibold mb-0">{item.serviceName}</h3>
+                  <h3 className="text-xl font-semibold mb-0">{item.serviceName}</h3>
                 </div>
                 <p className="mb-0 text-gray-500">{item.serviceDesc}</p>
               </div>
