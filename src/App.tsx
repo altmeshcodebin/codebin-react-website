@@ -1,7 +1,12 @@
 import React from "react";
 import "./App.css";
-import {Banner, Portfolio, Services, Technologies} from "./components/Sections";
-import {Header} from "./components/Header";
+import {
+  Banner,
+  Portfolio,
+  Services,
+  Technologies,
+} from "./components/Sections";
+import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 
 function App() {
@@ -12,7 +17,7 @@ function App() {
       <Services />
       <Technologies />
       <Portfolio />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
