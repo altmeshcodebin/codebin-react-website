@@ -3,15 +3,15 @@ import Portfolio2 from "../assets/img/portfolio/Openup-2.jpg";
 import Portfolio3 from "../assets/img/portfolio/Skoolers-2.jpg";
 import Portfolio4 from "../assets/img/portfolio/strap.png";
 import Portfolio5 from "../assets/img/portfolio/TechHr-2.jpg";
-import ClientLogo1 from "../assets/img/clientlogo/alteria-capital-logo.png";
+import ClientLogo1 from "../assets/img/clientlogo/koble.png";
 import ClientLogo2 from "../assets/img/clientlogo/Blue-Tokai.png";
 import ClientLogo3 from "../assets/img/clientlogo/bob.png";
-import ClientLogo4 from "../assets/img/clientlogo/Motherhood_Logo_Purple.png";
+import ClientLogo4 from "../assets/img/clientlogo/Actic.png";
 import ClientLogo5 from "../assets/img/clientlogo/Disney.png";
-import ClientLogo6 from "../assets/img/clientlogo/fifth.png";
+import ClientLogo6 from "../assets/img/clientlogo/autodesk.png";
 import ClientLogo7 from "../assets/img/clientlogo/Hcl.png";
 import ClientLogo8 from "../assets/img/clientlogo/Hello-yoga.png";
-import ClientLogo9 from "../assets/img/clientlogo/Learnthings.png";
+import ClientLogo9 from "../assets/img/clientlogo/rapport.png";
 
 export const PortfolioData = [
   {
