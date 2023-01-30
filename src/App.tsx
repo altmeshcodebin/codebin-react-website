@@ -1,23 +1,14 @@
 import React from "react";
 import "./App.css";
-import {
-  Banner,
-  Portfolio,
-  Services,
-  Technologies,
-} from "./components/Sections";
-import { Header } from "./components/Header";
-import { Footer } from "./components/Footer";
-
+import { Header2 } from "./components/Header";
+import { Footer2 } from "./components/Footer";
+import { LandingPage } from "./components/Pages";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Banner />
-      <Services />
-      <Technologies />
-      <Portfolio />
-      <Footer />
+      <Header2 />
+      <LandingPage />
+      <Footer2 />
     </div>
   );
 }

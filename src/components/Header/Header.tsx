@@ -1,28 +1,17 @@
 import React from "react";
-import {Navbar, Nav} from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import logo from "../../assets/img/CodeBinLogo.svg";
 import logomobile from "../../assets/img/CodeBinLogoSquareMOno.svg";
 import { CBButton } from "../CBButton";
 
 const Header = () => {
   return (
-    <Navbar
-      fixed="top"
-      className="bg-slate-900/70 bg-blur"
-    >
-      <Navbar.Brand className="pl-8 py-2">
-        <img
-          className="w-48 md:block max-[768px]:hidden"
-          src={logo}
-          alt=""
-        />
-        <img
-          className="w-12 h-12 md:hidden sm:block"
-          src={logomobile}
-          alt=""
-        />
+    <Navbar fixed="top" className="bg-blur bg-slate-900/70">
+      <Navbar.Brand className="py-2 pl-8">
+        <img className="w-48 max-[768px]:hidden md:block" src={logo} alt="" />
+        <img className="h-12 w-12 sm:block md:hidden" src={logomobile} alt="" />
       </Navbar.Brand>
-      <div className="ml-auto pr-8 py-2 max-[768px]:hidden">
+      <div className="ml-auto py-2 pr-8 max-[768px]:hidden">
         <CBButton title="Join us" />
       </div>
       <Navbar.Toggle>

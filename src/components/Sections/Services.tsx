@@ -1,4 +1,4 @@
-import {  FontAwesomeIcon  } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ServiceData } from "../../data/services";
@@ -16,21 +16,22 @@ const Services = () => {
           </Col>
         </Row>
         <Row>
-          <Col md="8">
+          <Col md="8" className="max-[768px]:mt-108 max-[768px]:pt-72">
             <Row className="flex">
               {ServiceData.map((item, index) => (
                 <Col md="6" className="pb-4" key={item.id}>
-                  <div className="service-wrapper flex h-full w-full flex-col flex-col justify-center rounded-lg text-left min-[768px]:p-4">
-                    <div className="mb-2 flex w-full items-center">
+                  <div className="service-wrapper flex flex-col justify-center rounded-lg text-left ">
+                    <div className="mb-2 flex items-center">
                       {item.serviceIcon ? (
-                        <div className="mr-4 flex items-center justify-center rounded text-red-600 duration-300 ease-in-out hover:scale-110">
+                        <div className="mr-4 bg-red-600 w-14 h-14 flex items-center justify-center rounded text-red-600 duration-300 ease-in-out hover:scale-110">
                           <FontAwesomeIcon
                             icon={item.serviceIcon}
                             className="p-2 text-xl"
+                            color="white"
                           />
                         </div>
                       ) : null}
-                      <h3 className="mb-0 text-xl font-semibold">
+                      <h3 className="mb-0 text-xl w-4/5 font-semibold">
                         {item.serviceName}
                       </h3>
                     </div>
@@ -45,7 +46,7 @@ const Services = () => {
             className="max-[768px]:absolute max-[768px]:left-0 max-[768px]:p-0"
           >
             <img
-              className="w-full rounded-lg bg-cover bg-fixed object-contain max-[768px]:h-[250px] min-[768px]:h-full"
+              className="w-full rounded-lg bg-contain md:bg-cover bg-fixed object-contain max-[768px]:h-[250px] min-[768px]:h-full"
               style={{ backgroundImage: `url(${ServicesBg})` }}
               src={ServicesImg}
               alt=""

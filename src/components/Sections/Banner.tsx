@@ -1,14 +1,16 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import mouse from "../../assets/img/mouse-scroll.gif";
-import bannerbg from "../../assets/img/bannerbg.jpg"
+import bannerbg from "../../assets/img/bannerbg.jpg";
 
 const Banner = () => {
   return (
     <Container
       fluid
-      className="bg-fixed flex h-screen flex-col justify-center p-0 md:justify-center bg-cover" style={{backgroundImage: `url(${bannerbg})`}}>
-      <Row className="w-full max-[768px]:px-8 md:flex md:items-center md:justify-center max-[768px]:gap-4 min-[768px]:gap-8">
+      className="flex h-screen flex-col justify-center bg-cover bg-fixed p-0 md:justify-center"
+      style={{ backgroundImage: `url(${bannerbg})` }}
+    >
+      <Row className="w-full max-[768px]:gap-4 max-[768px]:px-8 md:flex md:items-center md:justify-center min-[768px]:gap-8">
         <Col md={3}>
           <h3 className="font-thin text-white max-[768px]:text-left  max-[768px]:text-6xl md:text-7xl">
             Imagine<span className="text-red-600 md:text-9xl">.</span>

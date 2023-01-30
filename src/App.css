@@ -1,3 +1,173 @@
+@font-face {
+  font-family: "Excon-Variable";
+  src: url("./fonts/Excon-Variable.woff2") format("woff2"),
+    url("./fonts/Excon-Variable.woff") format("woff"),
+    url("./fonts/Excon-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Excon-Thin";
+  src: url("./fonts/Excon-Thin.woff2") format("woff2"),
+    url("./fonts/Excon-Thin.woff") format("woff"),
+    url("./fonts/Excon-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Excon-Light";
+  src: url("./fonts/Excon-Light.woff2") format("woff2"),
+    url("./fonts/Excon-Light.woff") format("woff"),
+    url("./fonts/Excon-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Excon-Regular";
+  src: url("./fonts/Excon-Regular.woff2") format("woff2"),
+    url("./fonts/Excon-Regular.woff") format("woff"),
+    url("./fonts/Excon-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Excon-Medium";
+  src: url("./fonts/Excon-Medium.woff2") format("woff2"),
+    url("./fonts/Excon-Medium.woff") format("woff"),
+    url("./fonts/Excon-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Excon-Bold";
+  src: url("./fonts/Excon-Bold.woff2") format("woff2"),
+    url("./fonts/Excon-Bold.woff") format("woff"),
+    url("./fonts/Excon-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Excon-Black";
+  src: url("./fonts/Excon-Black.woff2") format("woff2"),
+    url("./fonts/Excon-Black.woff") format("woff"),
+    url("./fonts/Excon-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-Variable";
+  src: url("./fonts/Outfit-Variable.woff2") format("woff2"),
+    url("./fonts/Outfit-Variable.woff") format("woff"),
+    url("./fonts/Outfit-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-Thin";
+  src: url("./fonts/Outfit-Thin.woff2") format("woff2"),
+    url("./fonts/Outfit-Thin.woff") format("woff"),
+    url("./fonts/Outfit-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-ExtraLight";
+  src: url("./fonts/Outfit-ExtraLight.woff2") format("woff2"),
+    url("./fonts/Outfit-ExtraLight.woff") format("woff"),
+    url("./fonts/Outfit-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-Light";
+  src: url("./fonts/Outfit-Light.woff2") format("woff2"),
+    url("./fonts/Outfit-Light.woff") format("woff"),
+    url("./fonts/Outfit-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-Regular";
+  src: url("./fonts/Outfit-Regular.woff2") format("woff2"),
+    url("./fonts/Outfit-Regular.woff") format("woff"),
+    url("./fonts/Outfit-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-Medium";
+  src: url("./fonts/Outfit-Medium.woff2") format("woff2"),
+    url("./fonts/Outfit-Medium.woff") format("woff"),
+    url("./fonts/Outfit-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-SemiBold";
+  src: url("./fonts/Outfit-SemiBold.woff2") format("woff2"),
+    url("./fonts/Outfit-SemiBold.woff") format("woff"),
+    url("./fonts/Outfit-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-Bold";
+  src: url("./fonts/Outfit-Bold.woff2") format("woff2"),
+    url("./fonts/Outfit-Bold.woff") format("woff"),
+    url("./fonts/Outfit-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-ExtraBold";
+  src: url("./fonts/Outfit-ExtraBold.woff2") format("woff2"),
+    url("./fonts/Outfit-ExtraBold.woff") format("woff"),
+    url("./fonts/Outfit-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-Black";
+  src: url("./fonts/Outfit-Black.woff2") format("woff2"),
+    url("./fonts/Outfit-Black.woff") format("woff"),
+    url("./fonts/Outfit-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
 .App {
   text-align: center;
 }

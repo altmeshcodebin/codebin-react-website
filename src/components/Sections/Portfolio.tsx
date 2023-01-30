@@ -10,7 +10,7 @@ const Portfolio = () => {
         <Row className="max-w-[700px] max-[768px]:text-left md:text-center">
           <Col>
             <SectionHeading title="Our Clients" />
-            <p className="my-8">
+            <p className="my-8 text-gray-500">
               Excepteur nisi adipisicing eiusmod sunt magna ullamco ea ipsum
               dolore est tempor amet. Ullamco consequat anim veniam do cillum ut
               non in sint eiusmod.

@@ -3,37 +3,27 @@ import {
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { CBButton } from "../CBButton";
-import LogoFooter from "../../assets/img/CodeBinLogoSquareMOno.svg";
+import LogoFooter from "../../assets/img/CodeBinLogo.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900">
+    <footer className="bg-neutral-900">
       <Container className="max-[768px]:py-24 md:py-16">
         <Row className="text-white">
           <Col
-            md="6"
-            className="float-right flex flex-col justify-center text-white max-[768px]:mb-4 max-[768px]:items-center max-[768px]:justify-center min-[768px]:text-left"
-          >
-            <h4 className="min-[768px]:text-left">Address</h4>
-            <p className="max-w-[270px] text-gray-400">
-              Code-Bin, Plot No. 4, S.No. 131/1A/1, Mahavir Park, Baner
-              Mahalunge Road, opp.Orchid School, Baner, Pune – 411045
-            </p>
-          </Col>
-          <Col
-            md="6"
-            className="float-left flex flex-col text-white md:items-end md:justify-end"
+            md="4"
+            className="flex flex-col text-white max-[768px]:mb-12 md:text-left "
           >
             <img
               src={LogoFooter}
               alt=""
-              className="mb-4 h-24 w-24 bg-contain object-contain max-[768px]:self-center md:self-end"
+              className="w-52 bg-contain object-contain max-[768px]:self-center"
             />
-            <h4 className="mb-4">Get connected</h4>
+            <div className="mb-4 mt-4 h-[1px] w-36 bg-red-600 max-[768px]:self-center md:mr-8 md:w-72" />
             <div>
               <a
                 className="text-white hover:text-red-600"
@@ -60,6 +50,32 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faLinkedin} size="xl" />
               </a>
             </div>
+          </Col>
+          <Col
+            md="4"
+            className="float-right flex flex-col text-white max-[768px]:mb-4 max-[768px]:items-center max-[768px]:justify-center min-[768px]:text-left"
+          >
+            <h4 className="min-[768px]:text-left">Address</h4>
+            <p className="text-gray-400 max-[768px]:max-w-[270px]">
+              Code-Bin, Plot No. 4, S.No. 131/1A/1, Mahavir Park, Baner
+              Mahalunge Road, opp.Orchid School, Baner
+              <br />
+              Pune – 411045
+            </p>
+          </Col>
+          <Col
+            md="4"
+            className="float-right flex flex-col text-white max-[768px]:mb-4 max-[768px]:items-center max-[768px]:justify-center min-[768px]:text-left"
+          >
+            <h4 className="min-[768px]:text-left">Contact</h4>
+            <a
+              href="mailto:manas@code-b.in"
+              color="white"
+              className="flex items-center gap-2 no-underline"
+            >
+              <FontAwesomeIcon icon={faEnvelope} color="white" size="xl" />
+              <p className="m-0 text-lg text-gray-400">manas@code-b.in</p>
+            </a>
           </Col>
         </Row>
       </Container>

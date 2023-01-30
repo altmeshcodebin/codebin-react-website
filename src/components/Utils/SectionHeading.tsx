@@ -5,7 +5,7 @@ interface SectionHeadingProps {
 }
 
 const SectionHeading = ({ title }: SectionHeadingProps) => {
-  return <h2 className="my-8 text-4xl font-bold">{title}</h2>;
+  return <h2 className="my-8 text-4xl font-bold capitalize">{title}</h2>;
 };
 
 export default SectionHeading;
