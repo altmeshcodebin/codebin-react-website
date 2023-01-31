@@ -2,7 +2,7 @@ import ManasProfile from "../assets/img/team/ManasProfile.jpg";
 import DimpleProfile from "../assets/img/team/DimpleProfile.jpg";
 import NitinProfile from "../assets/img/team/NitinProfile.jpg";
 import ShivaniProfile from "../assets/img/team/ShivaniProfile.jpg";
-import AltmeshProfile from "../assets/img/team/AltmeshProfile.jpg";
+// import AltmeshProfile from "../assets/img/team/AltmeshProfile.jpg";
 
 export const TeamData = [
   {

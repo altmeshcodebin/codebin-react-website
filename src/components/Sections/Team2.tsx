@@ -42,7 +42,7 @@ const Team = () => {
                   <a
                     href={item.social}
                     target="./blank "
-                    className="absolute right-3 rounded bg-white p-3 text-black max-[768px]:top-1 md:top-4"
+                    className="absolute right-3 cursor-pointer rounded bg-white p-3 text-black max-[768px]:top-1  md:top-4"
                   >
                     <FontAwesomeIcon icon={faLinkedinIn} />
                   </a>

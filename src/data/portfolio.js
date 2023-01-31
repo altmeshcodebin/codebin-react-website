@@ -4,7 +4,7 @@ import Portfolio3 from "../assets/img/portfolio/Skoolers-2.jpg";
 import Portfolio4 from "../assets/img/portfolio/strap.png";
 import Portfolio5 from "../assets/img/portfolio/TechHr-2.jpg";
 import ClientLogo1 from "../assets/img/clientlogo/koble.png";
-import ClientLogo2 from "../assets/img/clientlogo/Blue-Tokai.png";
+import ClientLogo2 from "../assets/img/clientlogo/Sports.png";
 import ClientLogo3 from "../assets/img/clientlogo/bob.png";
 import ClientLogo4 from "../assets/img/clientlogo/Actic.png";
 import ClientLogo5 from "../assets/img/clientlogo/Disney.png";
@@ -12,6 +12,9 @@ import ClientLogo6 from "../assets/img/clientlogo/autodesk.png";
 import ClientLogo7 from "../assets/img/clientlogo/Hcl.png";
 import ClientLogo8 from "../assets/img/clientlogo/Hello-yoga.png";
 import ClientLogo9 from "../assets/img/clientlogo/rapport.png";
+import ClientLogo10 from "../assets/img/clientlogo/soco.png";
+import ClientLogo11 from "../assets/img/clientlogo/Union.png";
+import ClientLogo12 from "../assets/img/clientlogo/Motherhood_Logo_Purple.png";
 
 export const PortfolioData = [
   {
@@ -122,6 +125,27 @@ export const PortfolioDataLogo = [
     id: 9,
     clientName: "Android and iOS Native applications",
     logo: ClientLogo9,
+    alt: "",
+    textcolor: "#333333",
+  },
+  {
+    id: 10,
+    clientName: "Android and iOS Native applications",
+    logo: ClientLogo10,
+    alt: "",
+    textcolor: "#333333",
+  },
+  {
+    id: 11,
+    clientName: "Android and iOS Native applications",
+    logo: ClientLogo11,
+    alt: "",
+    textcolor: "#333333",
+  },
+  {
+    id: 12,
+    clientName: "Android and iOS Native applications",
+    logo: ClientLogo12,
     alt: "",
     textcolor: "#333333",
   },
