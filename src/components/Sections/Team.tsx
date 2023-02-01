@@ -9,7 +9,7 @@ import { faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const Team2 = () => {
   return (
-    <>
+    <section id="Team">
       <Container fluid className="bg-[#2C3440]">
         <Container className="pt-12">
           <Row>
@@ -82,7 +82,7 @@ const Team2 = () => {
           </Row>
         </Container>
       </Container>
-    </>
+    </section>
   );
 };
 

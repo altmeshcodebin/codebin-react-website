@@ -6,8 +6,9 @@ import bannerbg from "../../assets/img/bannerbg.jpg";
 const Banner = () => {
   return (
     <Container
+      id="Banner"
       fluid
-      className="flex h-screen flex-col justify-center bg-cover bg-fixed p-0 md:justify-center"
+      className="relative flex h-screen flex-col justify-center bg-cover bg-fixed p-0 md:justify-center"
       style={{ backgroundImage: `url(${bannerbg})` }}
     >
       <Row className="w-full max-[768px]:gap-4 max-[768px]:px-8 md:flex md:items-center md:justify-center min-[768px]:gap-8">
@@ -27,7 +28,7 @@ const Banner = () => {
           </h3>
         </Col>
       </Row>
-      <div className="relative bottom-12 self-center max-[768px]:hidden md:block">
+      <div className="absolute bottom-12 self-center max-[768px]:hidden md:block">
         <img className="h-20 w-20" src={mouse} alt="" />
       </div>
     </Container>

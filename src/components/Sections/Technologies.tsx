@@ -6,7 +6,7 @@ import { SectionHeading } from "../Utils";
 
 const Technologies = () => {
   return (
-    <Container fluid className="flex bg-stone-100 py-12">
+    <Container id="Technologies" fluid className="flex bg-stone-100 py-12">
       <Container>
         <Row className="text-left text-red-600">
           <Col>

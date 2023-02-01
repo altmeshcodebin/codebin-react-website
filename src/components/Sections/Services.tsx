@@ -8,7 +8,7 @@ import ServicesBg from "../../assets/img/services-bg.jpg";
 
 const Services = () => {
   return (
-    <Container fluid className="bg-[#FAFAFA] pt-4 pb-16">
+    <Container id="Services" fluid className="bg-[#FAFAFA] pt-4 pb-16">
       <Container>
         <Row className="text-left">
           <Col>
@@ -23,7 +23,7 @@ const Services = () => {
                   <div className="service-wrapper flex flex-col justify-center rounded-lg text-left ">
                     <div className="mb-2 flex items-center">
                       {item.serviceIcon ? (
-                        <div className="mr-4 bg-red-600 w-14 h-14 flex items-center justify-center rounded text-red-600 duration-300 ease-in-out hover:scale-110">
+                        <div className="mr-4 flex h-14 w-14 items-center justify-center rounded bg-red-600 text-red-600 duration-300 ease-in-out hover:scale-110">
                           <FontAwesomeIcon
                             icon={item.serviceIcon}
                             className="p-2 text-xl"
@@ -31,7 +31,7 @@ const Services = () => {
                           />
                         </div>
                       ) : null}
-                      <h3 className="mb-0 text-xl w-4/5 font-semibold">
+                      <h3 className="mb-0 w-4/5 text-xl font-semibold">
                         {item.serviceName}
                       </h3>
                     </div>
@@ -46,7 +46,7 @@ const Services = () => {
             className="max-[768px]:absolute max-[768px]:left-0 max-[768px]:p-0"
           >
             <img
-              className="w-full rounded-lg bg-contain md:bg-cover bg-fixed object-contain max-[768px]:h-[250px] min-[768px]:h-full"
+              className="w-full rounded-lg bg-contain bg-fixed object-contain max-[768px]:h-[250px] md:bg-cover min-[768px]:h-full"
               style={{ backgroundImage: `url(${ServicesBg})` }}
               src={ServicesImg}
               alt=""

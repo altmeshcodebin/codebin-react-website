@@ -5,7 +5,7 @@ import { SectionHeading } from "../Utils";
 
 const Clients = () => {
   return (
-    <>
+    <section id="Clients">
       <Container fluid className="bg-sky-50 py-12 text-center text-slate-900">
         <Row className="max-[768px]:text-left md:text-center">
           <Col className="flex-center flex flex-col max-[768px]:text-left md:items-center">
@@ -33,7 +33,7 @@ const Clients = () => {
           ))}
         </Row>
       </Container>
-    </>
+    </section>
   );
 };
 

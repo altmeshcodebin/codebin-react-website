@@ -14,17 +14,17 @@ const Banner2 = () => {
       >
         <Row className="flex h-full content-center items-center justify-center md:px-48">
           <Col md={4} className="capitalize">
-            <h1 className="text-5xl md:text-right">
+            <h1 className="text-5xl font-thin md:text-right">
               imagine<span className="text-red-600 md:text-7xl">.</span>
             </h1>
           </Col>
           <Col md={4}>
-            <h1 className="text-5xl">
+            <h1 className="text-5xl font-light">
               Innovate<span className="text-red-600 md:text-7xl">.</span>
             </h1>
           </Col>
           <Col md={4}>
-            <h1 className="text-5xl md:text-left">
+            <h1 className="text-5xl font-bold md:text-left">
               Create<span className="text-red-600 md:text-7xl">.</span>
             </h1>
           </Col>

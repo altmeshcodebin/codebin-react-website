@@ -7,7 +7,7 @@ export const FooterData = [
   {
     id: 2,
     Title: "about",
-    Link: "#team",
+    Link: "#Team",
   },
   {
     id: 3,
