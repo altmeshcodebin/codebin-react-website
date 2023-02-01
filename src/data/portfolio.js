@@ -15,6 +15,9 @@ import ClientLogo9 from "../assets/img/clientlogo/rapport.png";
 import ClientLogo10 from "../assets/img/clientlogo/soco.png";
 import ClientLogo11 from "../assets/img/clientlogo/Union.png";
 import ClientLogo12 from "../assets/img/clientlogo/Motherhood_Logo_Purple.png";
+import ClientLogo13 from "../assets/img/clientlogo/Dwellcome.png";
+import ClientLogo14 from "../assets/img/clientlogo/Lintas.png";
+import ClientLogo15 from "../assets/img/clientlogo/UPWORK.png";
 
 export const PortfolioData = [
   {
@@ -67,42 +70,42 @@ export const PortfolioData = [
 export const PortfolioDataLogo = [
   {
     id: 1,
-    clientName: "Mobile & Web Development",
+    clientName: "Koble",
     logo: ClientLogo1,
     alt: "",
     textcolor: "#333333",
   },
   {
     id: 2,
-    clientName: "Software development",
+    clientName: "SpotUnity",
     logo: ClientLogo2,
     alt: "",
     textcolor: "#333333",
   },
   {
     id: 3,
-    clientName: "Progressive Web Apps",
+    clientName: "Bank Of Baroda",
     logo: ClientLogo3,
     alt: "",
     textcolor: "white",
   },
   {
     id: 4,
-    clientName: "UI & Prototyping",
+    clientName: "Actic",
     logo: ClientLogo4,
     alt: "",
     textcolor: "white",
   },
   {
     id: 5,
-    clientName: "Android and iOS Native applications",
+    clientName: "Disney London",
     logo: ClientLogo5,
     alt: "",
     textcolor: "#333333",
   },
   {
     id: 6,
-    clientName: "Android and iOS Native applications",
+    clientName: "Autodesk",
     logo: ClientLogo6,
     alt: "",
     textcolor: "#333333",
@@ -110,42 +113,63 @@ export const PortfolioDataLogo = [
 
   {
     id: 7,
-    clientName: "Android and iOS Native applications",
+    clientName: "HCL",
     logo: ClientLogo7,
     alt: "",
     textcolor: "#333333",
   },
   {
     id: 8,
-    clientName: "Android and iOS Native applications",
+    clientName: "HelloYoga",
     logo: ClientLogo8,
     textcolor: "#333333",
   },
   {
     id: 9,
-    clientName: "Android and iOS Native applications",
+    clientName: "Rapport",
     logo: ClientLogo9,
     alt: "",
     textcolor: "#333333",
   },
   {
     id: 10,
-    clientName: "Android and iOS Native applications",
+    clientName: "Socotec",
     logo: ClientLogo10,
     alt: "",
     textcolor: "#333333",
   },
   {
     id: 11,
-    clientName: "Android and iOS Native applications",
+    clientName: "Union Bank of India",
     logo: ClientLogo11,
     alt: "",
     textcolor: "#333333",
   },
   {
     id: 12,
-    clientName: "Android and iOS Native applications",
+    clientName: "Motherhood",
     logo: ClientLogo12,
+    alt: "",
+    textcolor: "#333333",
+  },
+  {
+    id: 13,
+    clientName: "Dwellcome",
+    logo: ClientLogo13,
+    alt: "",
+    textcolor: "#333333",
+  },
+  {
+    id: 14,
+    clientName: "MullenLowe Lintas Group",
+    logo: ClientLogo14,
+    alt: "",
+    textcolor: "#333333",
+  },
+  {
+    id: 15,
+    clientName: "UPWORK",
+    logo: ClientLogo15,
     alt: "",
     textcolor: "#333333",
   },

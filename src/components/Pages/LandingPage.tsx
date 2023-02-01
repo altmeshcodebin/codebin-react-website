@@ -1,13 +1,26 @@
 import React from "react";
-import { Clients, JoinUS, Services2, Team2 } from "../Sections";
+import { Header2 } from "../Header";
+import { Footer2 } from "../Footer";
+import {
+  Banner2,
+  JoinUS,
+  Clients2,
+  Services2,
+  Team2,
+  Technologies2,
+} from "../Sections";
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className="select-none ">
+      <Header2 />
+      <Banner2 />
+      <Clients2 />
+      <Technologies2 />
       <Services2 />
-      <Clients />
       <Team2 />
       <JoinUS />
+      <Footer2 />
     </div>
   );
 };

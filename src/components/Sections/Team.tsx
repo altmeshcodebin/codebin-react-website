@@ -35,7 +35,7 @@ const Team2 = () => {
         style={{ backgroundImage: `url(${TeamTopBg})` }}
       >
         <Container>
-          <Row className="mt-12 justify-center pt-12 pt-12 ">
+          <Row className="mt-12 justify-center pt-12">
             <Col md="4">
               <img className="rounded-lg" src={ManasProfile} alt="" />
             </Col>

@@ -16,18 +16,20 @@ const Footer2 = () => {
       className="bg-gray-300 bg-no-repeat pt-24 md:bg-contain"
       style={{ backgroundImage: `url(${FooterTopBg})` }}
     >
-      <Container fluid className="bg-[#2C3440] pb-24">
+      <Container fluid className="bg-[#2C3440] pb-24 pt-8">
         <Row className="flex flex-col">
           <Col className="flex flex-col items-center">
             <img className="w-48" src={LogoFooter} alt="" />
-            <h6 className="py-4 text-white">
-              Velit nulla qui veniam veniam do mollit dolore ullamco sit
-              commodo.
-            </h6>
+            <p className="max-w-lg py-4 text-white">
+              Excepteur pariatur cupidatat amet excepteur laborum reprehenderit
+              anim do cillum ex irure. In magna reprehenderit mollit esse
+              fugiat. In ea qui excepteur ullamco
+            </p>
           </Col>
-          <Col className="flex justify-center pb-4 max-[768px]:flex-col max-[768px]:gap-2 min-[768px]:gap-8">
+          <Col className="flex justify-center  pb-4 max-[768px]:flex-col max-[768px]:gap-2 min-[768px]:gap-8">
             {FooterData.map((item, index) => (
               <a
+                key={item.id}
                 className="text-center text-lg capitalize text-white no-underline"
                 href={item.Link}
               >

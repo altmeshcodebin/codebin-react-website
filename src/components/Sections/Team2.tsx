@@ -4,7 +4,6 @@ import { TeamData } from "../../data/team";
 import { SectionHeading } from "../Utils";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import FeaturedImg from "../../assets/img/team/featured.png";
 
 const Team = () => {
   return (
@@ -31,11 +30,13 @@ const Team = () => {
               key={item.id}
             >
               <div className="overflow-hidden rounded bg-slate-200">
-                <img
-                  className="justify-center rounded"
-                  src={item.img}
-                  alt={item.alt}
-                />
+                <div className="justify-center overflow-hidden rounded">
+                  <img
+                    className="justify-center duration-300 ease-in-out hover:scale-105"
+                    src={item.img}
+                    alt={item.alt}
+                  />
+                </div>
                 <div className="px-2 py-3">
                   <h4>{item.name}</h4>
                   <p className="m-0">{item.designation}</p>

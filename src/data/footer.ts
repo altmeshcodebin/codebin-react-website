@@ -7,7 +7,7 @@ export const FooterData = [
   {
     id: 2,
     Title: "about",
-    Link: "/",
+    Link: "#team",
   },
   {
     id: 3,
@@ -22,6 +22,6 @@ export const FooterData = [
   {
     id: 5,
     Title: "join us",
-    Link: "/",
+    Link: "#JoinUs",
   },
 ];

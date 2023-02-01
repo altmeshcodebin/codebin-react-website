@@ -27,7 +27,7 @@ const Banner = () => {
           </h3>
         </Col>
       </Row>
-      <div className="absolute bottom-12 self-center max-[768px]:hidden md:block">
+      <div className="relative bottom-12 self-center max-[768px]:hidden md:block">
         <img className="h-20 w-20" src={mouse} alt="" />
       </div>
     </Container>
