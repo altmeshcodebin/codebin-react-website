@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { LandingPage, LandingPage2 } from "./components/Pages";
+import { LandingPage, LandingPage2, LandingPage3 } from "./components/Pages";
 function App() {
   return (
     <div className="App">
@@ -9,6 +9,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/LandingPage2" element={<LandingPage2 />} />
+          <Route path="/LandingPage3" element={<LandingPage3 />} />
         </Routes>
       </Router>
     </div>

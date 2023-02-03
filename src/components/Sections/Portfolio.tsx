@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { PortfolioData, PortfolioDataLogo } from "../../data/portfolio";
+import { PortfolioDataLogo } from "../../data/portfolio";
 import { SectionHeading } from "../Utils";
 
 const Portfolio = () => {
@@ -22,7 +22,7 @@ const Portfolio = () => {
             <Col md="2" xs="4">
               <div key={item.id} className="flex justify-center">
                 <img
-                  className="h-[10rem] w-[10rem] bg-contain object-contain grayscale hover:grayscale-0 duration-300 ease-in-out hover:scale-110"
+                  className="h-[10rem] w-[10rem] bg-contain object-contain grayscale duration-300 ease-in-out hover:scale-110 hover:grayscale-0"
                   src={item.logo}
                   alt={item.alt}
                 />

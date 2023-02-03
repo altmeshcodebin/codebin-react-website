@@ -1,11 +1,11 @@
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useRef } from "react";
+import React from "react";
 import { Navbar } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import logo from "../../assets/img/CodeBinLogo.svg";
-import logomobile from "../../assets/img/CodeBinLogoSquareMOno.svg";
+import logo from "../../assets/img/logodarkbg/CodeBinLogo.svg";
+import logomobile from "../../assets/img/logodarkbg/CodeBinLogoSquareMOno.svg";
 import { CBButton } from "../CBButton";
 
 const Header = () => {
@@ -45,7 +45,8 @@ const Header = () => {
             <Offcanvas.Header
               closeButton
               closeVariant="white"
-              className="py-3 text-white"
+              className="text-white"
+              style={{ padding: "2.5rem" }}
             >
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                 Menu
@@ -57,7 +58,13 @@ const Header = () => {
                   href="/"
                   className="text-gray-200 no-underline hover:font-medium hover:text-red-600"
                 >
-                  landing Page 01
+                  landing Page 1
+                </a>
+                <a
+                  href="/landingpage3"
+                  className="text-gray-200 no-underline hover:font-medium hover:text-red-600"
+                >
+                  landing Page 3
                 </a>
                 <a
                   href="#Services"

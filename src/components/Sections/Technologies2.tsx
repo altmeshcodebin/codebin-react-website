@@ -19,7 +19,7 @@ const Technologies2 = () => {
             </p>
           </Col>
         </Row>
-        <Row className="max-[768px]:justify-between max-[768px]:p-4 ">
+        <Row className="mb-8 max-[768px]:justify-between max-[768px]:p-4 ">
           {TechnologiesData.map((item, index) => (
             <Col md={3} xs={6} key={item.id} className="p-2 md:p-4">
               <div className="flex items-center">

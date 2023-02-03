@@ -70,7 +70,7 @@ const Team2 = () => {
             </Col>
           </Row>
           <Row className="flex justify-center pb-12 max-[768px]:pt-12 md:pt-24 ">
-            {TeamData.map((item, index) => (
+            {TeamData.map((item) => (
               <Col md="2" sm="6" xs="4" className="" key={item.id}>
                 <img
                   className="h-24 w-24 rounded-lg bg-cover object-cover duration-300 ease-in-out hover:scale-105 hover:border-4 hover:border-white hover:shadow-lg max-[768px]:mb-4 md:h-44 md:w-44"
